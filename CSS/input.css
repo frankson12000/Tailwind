@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+@theme {
+    --color-pri-col:#202938;
+    --color-white-shade: #f6f6f6;
+    --animate-turn: rotate 3s ease-in-out 2s infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*.do-animate {
+    animation: rotate 3s ease-in-out 2s infinite;
+}*/
